@@ -9,14 +9,9 @@
   <style>
     body {
       font-family: 'Segoe UI', system-ui, sans-serif;
-      background: linear-gradient(135deg, #0a001f, #2a004d, #4a0078);
-      background-size: 400% 400%;
-      animation: gradient 15s ease infinite;
-    }
-    @keyframes gradient {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
+      background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.55)),
+                url('https://raw.githubusercontent.com/reallorizx/reallorizx.github.io/main/images/bg.png') center/cover no-repeat fixed;
+      min-height: 100vh;
     }
 
     .neon-text {
@@ -25,7 +20,7 @@
 
     .subtitle {
       color: #ffffff;
-      text-shadow: 
+      text-shadow:
         0 0 10px #ffffff,
         0 0 20px #ffffff,
         0 0 40px #ffffff,
@@ -40,16 +35,11 @@
       transform: translateY(-8px) scale(1.03);
       box-shadow: 0 0 30px rgba(255, 0, 255, 0.6);
     }
-
-    .copyright {
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-    }
   </style>
 </head>
 <body class="min-h-screen text-white">
-
   <div class="max-w-md mx-auto pt-12 px-6 text-center">
-  
+ 
     <div class="relative w-36 h-36 mx-auto mb-6">
       <div class="absolute inset-0 bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 rounded-3xl blur-xl opacity-50"></div>
       <div class="relative w-36 h-36 rounded-3xl overflow-hidden border-4 border-white shadow-2xl">
@@ -58,50 +48,38 @@
     </div>
 
     <h1 class="text-5xl font-black mb-1 neon-text">ЛОРИЗ</h1>
-    
+  
     <p class="subtitle text-2xl mb-10 tracking-widest">
       AMONG US CREATOR
     </p>
 
     <div class="space-y-5">
-    
-      <!-- TikTok -->
-      <a href="https://tiktok.com/@reallorizx" target="_blank"
-         class="card block bg-zinc-950 border border-pink-500/30 hover:border-pink-500 rounded-3xl py-6 text-xl font-bold flex items-center justify-center gap-4">
+      <a href="https://tiktok.com/@reallorizx" target="_blank" class="card block bg-zinc-950 border border-pink-500/30 hover:border-pink-500 rounded-3xl py-6 text-xl font-bold flex items-center justify-center gap-4">
         <i class="fa-brands fa-tiktok text-4xl text-pink-500"></i>
         <span>TikTok</span>
       </a>
 
-      <!-- Telegram канал -->
-      <a href="https://t.me/+86CS5gN9291jZWUy" target="_blank"
-         class="card block bg-zinc-950 border border-blue-500/30 hover:border-blue-400 rounded-3xl py-6 text-xl font-bold flex items-center justify-center gap-4">
+      <a href="https://t.me/+86CS5gN9291jZWUy" target="_blank" class="card block bg-zinc-950 border border-blue-500/30 hover:border-blue-400 rounded-3xl py-6 text-xl font-bold flex items-center justify-center gap-4">
         <i class="fa-brands fa-telegram text-4xl text-blue-400"></i>
         <span>Telegram-канал</span>
       </a>
 
-      <!-- Discord -->
-      <a href="https://discord.gg/lolaamongus" target="_blank"
-         class="card block bg-zinc-950 border border-indigo-500/30 hover:border-indigo-400 rounded-3xl py-6 text-xl font-bold flex items-center justify-center gap-4">
+      <a href="https://discord.gg/lolaamongus" target="_blank" class="card block bg-zinc-950 border border-indigo-500/30 hover:border-indigo-400 rounded-3xl py-6 text-xl font-bold flex items-center justify-center gap-4">
         <i class="fa-brands fa-discord text-4xl text-indigo-400"></i>
         <span>Discord-сервер</span>
       </a>
 
-      <!-- Предложка -->
-      <a href="https://t.me/loriz_among_bot" target="_blank"
-         class="card block bg-gradient-to-r from-purple-600 via-pink-600 to-cyan-500 hover:brightness-110 rounded-3xl py-6 text-xl font-bold flex items-center justify-center gap-4 shadow-lg">
+      <a href="https://t.me/loriz_among_bot" target="_blank" class="card block bg-gradient-to-r from-purple-600 via-pink-600 to-cyan-500 hover:brightness-110 rounded-3xl py-6 text-xl font-bold flex items-center justify-center gap-4 shadow-lg">
         <i class="fa-solid fa-paper-plane text-4xl"></i>
         <span>Предложения/идеи</span>
       </a>
     </div>
 
-    <!-- Copyright -->
     <div class="mt-10 pt-8 border-t border-white/10">
       <p class="copyright text-white/30 text-xs tracking-widest">
         © 2026 • Все права защищены
       </p>
     </div>
-
   </div>
-
 </body>
 </html>
