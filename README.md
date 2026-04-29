@@ -1,1 +1,1 @@
-[# ПЕРЕХОДНИК](https://reallorizx.github.io/)
+[**ПЕРЕХОДНИК**](https://reallorizx.github.io/)
