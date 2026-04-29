@@ -1,1 +1,2 @@
-[**ПЕРЕХОДНИК**](https://reallorizx.github.io/)
+[**Github**](https://reallorizx.github.io/)
+[**Netlify**](https://reallorizx.netlify.app/)
