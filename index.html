@@ -7,6 +7,45 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <style>
+  	::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(10, 5, 25, 0.9);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    #7b2cff,   /* яркий фиолетовый */
+    #a100ff,   /* неоновый пурпур */
+    #5dffb3,   /* мягкий неоновый зелёный */
+    #00ff99    /* яркий зелёный */
+  );
+  border-radius: 20px;
+  box-shadow:
+    0 0 15px rgba(123, 44, 255, 0.7),
+    0 0 30px rgba(0, 255, 153, 0.5),
+    inset 0 0 10px rgba(255,255,255,0.12);
+}
+    
+  	::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    #00ffcc,
+    #00e5ff,
+    #4f6fff,
+    #6d5cff
+  );
+  border-radius: 20px;
+  box-shadow:
+    0 0 15px #00ffe5,
+    0 0 30px #4d7cff,
+    inset 0 0 10px rgba(255,255,255,0.15);
+}
+    
     body {
       font-family: 'Segoe UI', system-ui, sans-serif;
       background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.55)),
